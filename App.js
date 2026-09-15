@@ -41,15 +41,77 @@
 
 
 
-import { StyleSheet, View } from 'react-native'
+// import { StyleSheet, View } from 'react-native'
+// import React from 'react'
+
+// export default function App() {
+//   return (
+//     <View>
+//       <Text>App</Text>
+//     </View>
+//   )
+// }
+
+// const styles = StyleSheet.create({})
+
+
+import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function App() {
+const App = () => {
   return (
-    <View>
+    <View style={{
+      flex: 1,
+      // alignItems:"center",
+      justifyContent: "center",
+      padding: 20
+    }}>
       <Text>App</Text>
+
+
+
+<View style={{
+  flexDirection:"row",
+  justifyContent:"space-evenly"
+}}>
+
+      <View style={{
+        // flex:2,
+        height: 100, width: 100,
+        backgroundColor: "blue",
+        borderWidth: 2,
+        borderColor: "red",
+      }}>
+
+      </View>
+
+      <View style={{
+        // flex:2,
+        height: 100, width: 100,
+        backgroundColor: "blue",
+        borderWidth: 2,
+        borderColor: "red",
+      }}>
+      </View>
+</View>
+
+
+<Text style={{
+  backgroundColor:"#9a9a9a",
+  paddingVertical:20,
+  textAlign:"center",
+  fontSize:20,
+  boxSizing:"border-box",
+  fontWeight:"bold",
+  marginVertical:10
+}}>
+  login 
+</Text> 
+
     </View>
   )
 }
+
+export default App
 
 const styles = StyleSheet.create({})
