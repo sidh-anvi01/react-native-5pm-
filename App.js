@@ -1,60 +1,3 @@
-// import { StyleSheet, Text, View } from 'react-native'
-// import React from 'react'
-
-// const App = () => {
-//   return (
-//     <View>
-//       <Text>App</Text>
-//     </View>
-//   )
-// }
-
-// export default App
-
-// const styles = StyleSheet.create({})
-
-
-
-// import React, { Component } from 'react'
-// import { Text, StyleSheet, View } from 'react-native'
-
-// export default class App extends Component {
-//   render() {
-//     return (
-//       <View>
-//         <Text> textInComponent </Text>
-//       </View>
-//     )
-//   }
-// }
-
-// const styles = StyleSheet.create({})
-
-
-
-
-
-// react native's inbuild components : 
-// third party : we to install ""
-// user defined compoentnt  ;:
-// custom component :
-
-
-
-// import { StyleSheet, View } from 'react-native'
-// import React from 'react'
-
-// export default function App() {
-//   return (
-//     <View>
-//       <Text>App</Text>
-//     </View>
-//   )
-// }
-
-// const styles = StyleSheet.create({})
-
-
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
@@ -62,51 +5,69 @@ const App = () => {
   return (
     <View style={{
       flex: 1,
+      backgroundColor: "blue",
+      padding: 10,
       // alignItems:"center",
-      justifyContent: "center",
-      padding: 20
+      // justifyContent:"center"
+
+
     }}>
+
+
+      <View style={{
+        height: 100, width: 100,
+        backgroundColor: "yellow",
+        borderRadius: "100%",
+        marginVertical: 10,
+        marginHorizontal: 20
+      }}>
+
+      </View>
+
+      <Text style={{
+        backgroundColor: "red",
+        paddingVertical: 10,
+        paddingHorizontal: 10,
+        textAlign: "center"
+      }}>App</Text>
+      <Text>App</Text>
+      <Text>App</Text>
       <Text>App</Text>
 
 
 
-<View style={{
-  flexDirection:"row",
-  justifyContent:"space-evenly"
-}}>
-
       <View style={{
-        // flex:2,
-        height: 100, width: 100,
-        backgroundColor: "blue",
-        borderWidth: 2,
-        borderColor: "red",
+        height: 200,
+        width: 200,
+        backgroundColor: "orange",
+        alignItems: "center",
+        justifyContent: "center",
+        borderWidth: 20,
+        borderColor: "green"
       }}>
-
+        <Text style={{
+          backgroundColor: "red",
+          paddingVertical: 10,
+          paddingHorizontal: 10,
+          textAlign: "center"
+        }}>App</Text>
+        <Text>App</Text>
+        <Text>App</Text>
+        <Text>App</Text>
       </View>
 
-      <View style={{
-        // flex:2,
-        height: 100, width: 100,
-        backgroundColor: "blue",
-        borderWidth: 2,
-        borderColor: "red",
-      }}>
-      </View>
+
+<View style={{height:40,
+  borderWidth:2,
+  borderColor:"red",
+  justifyContent:"center",
+  alignContent:"center",
+  paddingLeft:10
+}}> 
+<Text>
+  enter your name
+</Text>
 </View>
-
-
-<Text style={{
-  backgroundColor:"#9a9a9a",
-  paddingVertical:20,
-  textAlign:"center",
-  fontSize:20,
-  boxSizing:"border-box",
-  fontWeight:"bold",
-  marginVertical:10
-}}>
-  login 
-</Text> 
 
     </View>
   )
