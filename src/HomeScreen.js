@@ -17,7 +17,7 @@ export default HomeScreen
 const styles = StyleSheet.create({
 
 text:{
-    fon
+  
 }
 
 

@@ -85,11 +85,11 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import HomeScreen from './src/HomeScreen'
 import LoginScreen from './src/LoginScreen'
-
+import Login from './src/auth/Login'
 const App = () => {
   return (
   //  <HomeScreen/>
-<LoginScreen/>
+<Login/>
 
   )
 }
