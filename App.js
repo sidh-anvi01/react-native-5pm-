@@ -82,14 +82,21 @@
 
 
 import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React, { useState } from 'react'
 import HomeScreen from './src/HomeScreen'
 import LoginScreen from './src/LoginScreen'
 import Login from './src/auth/Login'
+import UseStateEx from './src/screens/UseStateEx'
 const App = () => {
+
+
+  const [user,setUSer]=useState(true)
+
+
   return (
   //  <HomeScreen/>
-<Login/>
+
+<UseStateEx/>
 
   )
 }
