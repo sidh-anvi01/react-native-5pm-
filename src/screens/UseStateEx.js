@@ -25,7 +25,7 @@ const[user,setUser]=useState(true)
 
   return (
     <View>
-      {/* <Text>UseStateEx</Text>
+      <Text>UseStateEx</Text>
       <Text >{name}</Text>
       <TouchableOpacity onPress={()=>{setName("mohan")}}>
         <Text>click</Text>
@@ -37,7 +37,7 @@ const[user,setUser]=useState(true)
 
 </View>
 
-<Text style={{color:isClicked?"blue":"red"}}>chage me color</Text> */}
+<Text style={{color:isClicked?"blue":"red"}}>chage me color</Text>
 
     </View>
   )
