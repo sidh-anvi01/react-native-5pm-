@@ -88,6 +88,7 @@ import LoginScreen from './src/LoginScreen'
 import Login from './src/auth/Login'
 import UseStateEx from './src/screens/UseStateEx'
 import UserList from './src/screens/UserList'
+import ApiEx from './src/screens/ApiEx'
 const App = () => {
 
 
@@ -98,7 +99,7 @@ const App = () => {
   //  <HomeScreen/>
 
 
-<UserList/>
+<ApiEx/>
   )
 }
 
